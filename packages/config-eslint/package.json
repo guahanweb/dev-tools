@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-guahanweb",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5"
+  }
+}

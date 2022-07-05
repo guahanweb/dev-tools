@@ -1,0 +1,6 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "@guahan/config-tsconfig/node.json",
+    "include": ["."],
+    "exclude": ["node_modules"]
+}

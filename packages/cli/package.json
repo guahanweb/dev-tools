@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@guahan/cli",
+  "private": true,
+  "version": "1.0.0",
+  "bin": {
+    "guahan": "./bin/main.js"
+  },
+  "devDependencies": {
+    "@guahan/config-tsconfig": "*",
+    "@types/http-proxy": "^1.17.9",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.1",
+    "@types/prompts": "^2.0.14",
+    "chalk": "^5.0.1",
+    "commander": "^9.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-guahanweb": "*",
+    "execa": "^6.1.0",
+    "jest": "^28.1.2",
+    "open": "^8.4.0",
+    "prompts": "^2.4.2",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guahanweb/dev-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guahanweb/dev-tools/issues"
+  },
+  "homepage": "https://github.com/guahanweb/dev-tools#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
