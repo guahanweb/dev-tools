@@ -1,0 +1,31 @@
+{
+  "name": "@guahan/dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "peerDependencies": {
+    "aws-sdk": "^2.1168.0"
+  },
+  "devDependencies": {
+    "@guahan/config-tsconfig": "*",
+    "jest": "^28.1.2",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.modules.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guahanweb/dev-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guahanweb/dev-tools/issues"
+  },
+  "homepage": "https://github.com/guahanweb/dev-tools#readme"
+}
